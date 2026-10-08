@@ -5,67 +5,57 @@ import Image from "next/image";
 
 const galleryImages = [
   {
-    src: "/images/gallery/behind-the-scenes-01.webp",
+    src: "/images/gallery/bts-01.webp",
     alt: "TORRELLI durante la grabación de un videoclip",
-    width: 4000,
-    height: 2000,
   },
   {
-    src: "/images/gallery/behind-the-scenes-02.webp",
+    src: "/images/gallery/bts-02.webp",
     alt: "TORRELLI durante la grabación de un videoclip",
-    width: 4000,
-    height: 2000,
   },
   {
-    src: "/images/gallery/behind-the-scenes-03.webp",
+    src: "/images/gallery/bts-06.webp",
     alt: "TORRELLI durante la grabación de un videoclip",
-    width: 4000,
-    height: 2000,
   },
   {
-    src: "/images/gallery/behind-the-scenes-04.webp",
+    src: "/images/gallery/bts-04.webp",
     alt: "TORRELLI durante la grabación de un videoclip",
-    width: 4000,
-    height: 2000,
   },
   {
-    src: "/images/gallery/behind-the-scenes-05.webp",
+    src: "/images/gallery/bts-03.webp",
     alt: "TORRELLI durante la grabación de un videoclip",
-    width: 4000,
-    height: 2000,
   },
   {
-    src: "/images/gallery/behind-the-scenes-06.webp",
+    src: "/images/gallery/bts-05.webp",
     alt: "TORRELLI durante la grabación de un videoclip",
-    width: 4000,
-    height: 2000,
   },
   {
-    src: "/images/gallery/behind-the-scenes-07.webp",
+    src: "/images/gallery/bts-07.webp",
     alt: "TORRELLI durante la grabación de un videoclip",
-    width: 4000,
-    height: 2000,
   },
   {
-    src: "/images/gallery/behind-the-scenes-08.webp",
+    src: "/images/gallery/bts-08.webp",
     alt: "TORRELLI durante la grabación de un videoclip",
-    width: 4000,
-    height: 2000,
   },
   {
-    src: "/images/gallery/behind-the-scenes-09.webp",
+    src: "/images/gallery/bts-09.webp",
     alt: "TORRELLI durante la grabación de un videoclip",
-    width: 4000,
-    height: 2000,
   },
   {
-    src: "/images/gallery/behind-the-scenes-10.webp",
+    src: "/images/gallery/bts-10.webp",
     alt: "TORRELLI durante la grabación de un videoclip",
-    width: 4000,
-    height: 2000,
   },
-
-  // Más imágenes las iremos agregando aquí
+  {
+    src: "/images/gallery/bts-11.webp",
+    alt: "TORRELLI durante la grabación de un videoclip",
+  },
+  {
+    src: "/images/gallery/bts-12.webp",
+    alt: "TORRELLI durante la grabación de un videoclip",
+  },
+  {
+    src: "/images/gallery/bts-13.webp",
+    alt: "TORRELLI durante la grabación de un videoclip",
+  },
 ];
 
 const IMAGES_PER_PAGE = 6;
@@ -98,14 +88,14 @@ export default function Gallery() {
             Momentos detrás de los videoclips y proyectos de TORRELLI.
           </p>
         </div>
-        <div className="grid auto-rows-[120px] grid-cols-4 gap-2 md:auto-rows-[140px]">
+        <div className="grid auto-rows-[120px] grid-cols-3 gap-2 md:auto-rows-[140px]">
           {currentImages.map((image, index) => {
             const layoutClasses = [
-              "col-span-2 row-span-2",
-              "col-span-2 row-span-1",
               "col-span-1 row-span-2",
-              "col-span-1 row-span-2",
+              "col-span-1 row-span-3",
               "col-span-1 row-span-1",
+              "col-span-1 row-span-3",
+              "col-span-1 row-span-2",
               "col-span-1 row-span-1",
             ];
 

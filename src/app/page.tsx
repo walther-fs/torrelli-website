@@ -1,11 +1,12 @@
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
-
+import ScrollToTop from "@/components/layout/ScrollToTop";
 import Hero from "@/components/home/Hero";
 import Spotify from "@/components/home/Spotify";
 import Gallery from "@/components/home/Gallery";
-import About from "@/components/home/About";
+//import About from "@/components/home/About";
 import LatestNews from "@/components/home/LatestNews";
+import Contact from "@/components/home/Contact";
 import Sidebar from "@/components/layout/Sidebar";
 
 export default function Home() {
@@ -18,15 +19,10 @@ export default function Home() {
         <Hero />
         <Spotify />
         <Gallery />
-        <About />
         <LatestNews />
-
-        <section id="contact">
-          <h2>Contacto</h2>
-          <p>Ponte en contacto con TORRELLI.</p>
-        </section>
+        <Contact />
       </main>
-
+      <ScrollToTop />
       <Footer />
     </>
   );

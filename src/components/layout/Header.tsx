@@ -1,7 +1,6 @@
 import Link from "next/link";
 
 const navigation = [
-  { label: "Sobre mí", href: "#about" },
   { label: "Galería", href: "#gallery" },
   { label: "Noticias", href: "#news" },
   { label: "Contacto", href: "#contact" },

@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Roboto_Mono } from "next/font/google";
-
 import { artist } from "@/data/artist";
 
 import "./globals.css";
@@ -39,7 +38,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           aria-hidden="true"
         />
 
-        <div className="fixed inset-0 -z-10 bg-black/30" aria-hidden="true" />
+        <div className="fixed inset-0 -z-10 bg-black/10" aria-hidden="true" />
 
         {children}
       </body>

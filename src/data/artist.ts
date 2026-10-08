@@ -1,3 +1,5 @@
+import Spotify from "@/components/home/Spotify";
+
 export const artist = {
   name: "TORRELLI",
   description:
@@ -10,5 +12,7 @@ export const artist = {
     youtube: "https://www.youtube.com/@TORRELLIMUSIC",
     tiktok:
       "https://www.tiktok.com/@torrellimusic?is_from_webapp=1&sender_device=pc",
+    spotify:
+      "https://open.spotify.com/intl-es/artist/4rLdLznQGtEvN58hvkJXH4?si=s-kbfyybR_eaGvzGEd1Fkw",
   },
 };
